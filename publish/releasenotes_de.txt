@@ -1,0 +1,26 @@
+=== Titel
+
+
+
+=== Suchbegriffe
+
+
+
+=== Teaser
+
+
+
+=== Beschreibung
+
+
+
+=== Freigabe-Notizen und Änderungs-Log
+<p>siehe Handbuch-Link</p>
+
+
+=== Handbuch-Link
+https://github.com/backbone87/backboneit_msm/issues
+
+
+=== Forum-Link
+
