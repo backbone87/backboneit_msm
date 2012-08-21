@@ -65,6 +65,7 @@ class MSMBackend extends Backend {
 		$this->loadLanguageFile('bbit_msm');
 		
 		$strEnabled = $blnEnabled ? 'enabled' : 'disabled';
+		$arrData['host'] = $this->Environment->host;
 		
 		$subject = $GLOBALS['TL_LANG']['bbit_msm'][$strEnabled]['subject'];
 		$text = $GLOBALS['TL_LANG']['bbit_msm'][$strEnabled]['text'];
