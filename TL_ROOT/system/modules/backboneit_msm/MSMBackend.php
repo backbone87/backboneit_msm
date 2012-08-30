@@ -62,7 +62,7 @@ class MSMBackend extends Backend {
 	}
 
 	protected function sendMail($arrData, $blnEnabled) {
-		$this->loadLanguageFile('bbit_msm', $arrData['language'], true);
+		$this->loadLanguageFile('bbit_msm', $arrData['language'] ? $arrData['language'] : 'en', true);
 		
 		$strEnabled = $blnEnabled ? 'enabled' : 'disabled';
 		$arrData['host'] = $this->Environment->host;
